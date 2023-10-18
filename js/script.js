@@ -17,6 +17,19 @@ function campoMinato (){
         })
         return square;
     }
+
+    // creo l'evento del bottone 
+    btn.addEventListener('click', function(){
+        // definisco quanti quadrati devo creare 
+        nSquare = 100;
+        //creo un ciclo che per nSquare volte crea i quadrati 
+        for (i = 1; i <= nSquare; i++){
+            let square = drawSquare();
+            playground.append (square);
+        }
+    }
+    )
+
     
  
 }
