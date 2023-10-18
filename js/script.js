@@ -24,7 +24,7 @@ function campoMinato (){
         // aggiungo il reset 
         playground.innerHTML = '';
         // definisco quanti quadrati devo creare 
-        nSquare = 100;
+        let nSquare = 100;
         //creo un ciclo che per nSquare volte crea i quadrati 
         for (i = 1; i <= nSquare; i++){
             let square = drawSquare(i);
