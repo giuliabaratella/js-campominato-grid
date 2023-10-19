@@ -42,6 +42,7 @@ body {
     color: var(--color-text);
     border: 3px solid var(--color-border-square);
     font-size: 1.6em;
+    cursor: pointer;
 }
 
 .active {
