@@ -18,6 +18,7 @@ function campoMinato (){
 
         const square = document.createElement('div');
         square.classList.add ('square');
+        square.innerText = n;
         // aggiungo i valori di largh e alt al quadrato 
         square.style.width = `calc(100% / ${squareWidth})`;
         square.style.height = square.style.width;
