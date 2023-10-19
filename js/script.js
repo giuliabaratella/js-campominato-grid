@@ -15,6 +15,7 @@ function campoMinato (){
         square.addEventListener('click',function(){
          square.classList.add('active');
          console.log(n);
+         square.innerHTML = n;
         })
         return square;
     }
